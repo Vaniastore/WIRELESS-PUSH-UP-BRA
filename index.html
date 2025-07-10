@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireless Push Up Bra Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .premium-blue-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        
+        .promo-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ef4444;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .color-variant {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .color-variant:hover {
+            border-color: #3b82f6;
+            transform: scale(1.05);
+        }
+        
+        .price-tag {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .price-tag .original-price {
+            position: relative;
+            color: #6b7280;
+        }
+        
+        .price-tag .original-price:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 2px;
+            background: #ef4444;
+            transform: translateY(-50%);
+        }
+        
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .product-detail-img {
+            transition: all 0.3s ease;
+        }
+        
+        .product-detail-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .order-form-container {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .promo-banner {
+            background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .promo-banner:before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.1) 10px,
+                rgba(255,255,255,0.1) 20px
+            );
+            animation: shine 3s linear infinite;
+        }
+        
+        @keyframes shine {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header with Main Product Image -->
+    <header class="relative">
+        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasl-m3070f17iahsdd.webp" alt="Wireless Push Up Bra" class="w-full h-auto object-cover">
+        <div class="promo-badge">PROMO TERBATAS!</div>
+    </header>
+
+    <!-- Product Title and Description -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">WIRELESS PUSH UP BRA</h1>
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <ul class="space-y-2 text-left text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Produk import 100%</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Bahan = Nilon 80% + Spandex 20%</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Banyak pilihan warna dan ukuran</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Features -->
+    <section class="premium-blue-bg text-white py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">KENYAMANAN TANPA BATAS</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center px-6">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-ruler-combined text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">UKURAN LENGKAP</h3>
+                    <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                        <ul class="text-left space-y-2 text-sm">
+                            <li><strong>34/75</strong> = 78-85cm / 70-75cm / AB</li>
+                            <li><strong>36/80</strong> = 83-92cm / 75-80cm / AB</li>
+                            <li><strong>38/85</strong> = 87-96cm / 77-83cm / AB</li>
+                            <li><strong>40/90</strong> = 94-100cm / 80-88cm / AB</li>
+                            <li><strong>42/95</strong> = 100-102cm / 86-90cm / AB</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="text-center px-6">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-layer-group text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">KETEBALAN BUSH</h3>
+                    <p class="text-lg">Tebal Busa BH = ± 2cm</p>
+                    <div class="mt-4 bg-white bg-opacity-10 p-4 rounded-lg">
+                        <p>Ketebalan ideal untuk kenyamanan maksimal sepanjang hari</p>
+                    </div>
+                </div>
+                
+                <div class="text-center px-6">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-heart text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">MATERIAL PREMIUM</h3>
+                    <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                        <p>Kombinasi sempurna antara Nilon 80% untuk daya tahan dan Spandex 20% untuk elastisitas optimal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details with Images -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">DETAIL PRODUK</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="text-center">
+                <div class="product-detail-img overflow-hidden rounded-lg mb-4">
+                    <img src="https://down-id.img.susercontent.com/file/b77069ef43b2feea358698b6dd43b563.webp" alt="Detail Produk 1" class="w-full h-auto">
+                </div>
+                <p class="text-gray-700">Desain wireless tanpa kawat yang nyaman</p>
+            </div>
+            
+            <div class="text-center">
+                <div class="product-detail-img overflow-hidden rounded-lg mb-4">
+                    <img src="https://down-id.img.susercontent.com/file/8b91e6123ad056dc751368aba319099e.webp" alt="Detail Produk 2" class="w-full h-auto">
+                </div>
+                <p class="text-gray-700">Push up alami dengan busa tebal 2cm</p>
+            </div>
+            
+            <div class="text-center">
+                <div class="product-detail-img overflow-hidden rounded-lg mb-4">
+                    <img src="https://down-id.img.susercontent.com/file/f4e2ee6c75d71964c71eb35e260051d3.webp" alt="Detail Produk 3" class="w-full h-auto">
+                </div>
+                <p class="text-gray-700">Elastisitas sempurna untuk aktivitas sehari-hari</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="bg-gray-50 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">PILIHAN WARNA EKSKLUSIF</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <img src="https://down-id.img.susercontent.com/file/12cf9f7e6217036d8a382e6f3388bdb3.webp" alt="Varian Warna" class="w-full h-auto rounded-lg">
+                    
+                    <div class="grid grid-cols-5 gap-4 mt-6">
+                        <div class="color-variant rounded-full h-12 w-12 bg-black cursor-pointer"></div>
+                        <div class="color-variant rounded-full h-12 w-12 bg-gray-300 cursor-pointer"></div>
+                        <div class="color-variant rounded-full h-12 w-12 bg-red-300 cursor-pointer"></div>
+                        <div class="color-variant rounded-full h-12 w-12 bg-blue-300 cursor-pointer"></div>
+                        <div class="color-variant rounded-full h-12 w-12 bg-pink-300 cursor-pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">TESTIMONI PELANGGAN</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-500">
+                        <i class="fas fa-user text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold">Dian Sastro</h4>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Awalnya ragu karena harganya murah, tapi setelah pakai ternyata sangat nyaman! Bahannya adem dan bentuknya bagus. Sudah beli 3 warna berbeda."</p>
+            </div>
+            
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-500">
+                        <i class="fas fa-user text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold">Maya Fitriani</h4>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Pengiriman cepat, packing rapi. Produknya premium banget, busanya tebal tapi tetap nyaman dipakai seharian. Ukurannya juga pas sesuai yang di deskripsi."</p>
+            </div>
+            
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-500">
+                        <i class="fas fa-user text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-semibold">Rina Amelia</h4>
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Push up effectnya natural banget, nggak berlebihan. Yang paling suka karena wireless jadi nggak ada kawat yang menusuk. Sudah beli lagi untuk hadiah saudara."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="bg-gradient-to-r from-blue-800 to-blue-600 py-8">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto countdown-box p-6 text-center text-white">
+                <h3 class="text-2xl font-bold mb-4">PROMO SPESIAL HARI INI SAJA!</h3>
+                <p class="mb-6">Diskon akan berakhir dalam:</p>
+                
+                <div class="flex justify-center space-x-4">
+                    <div class="bg-white text-blue-800 rounded-lg p-3 w-20">
+                        <div class="text-3xl font-bold" id="countdown-hours">12</div>
+                        <div class="text-sm">Jam</div>
+                    </div>
+                    <div class="bg-white text-blue-800 rounded-lg p-3 w-20">
+                        <div class="text-3xl font-bold" id="countdown-minutes">45</div>
+                        <div class="text-sm">Menit</div>
+                    </div>
+                    <div class="bg-white text-blue-800 rounded-lg p-3 w-20">
+                        <div class="text-3xl font-bold" id="countdown-seconds">30</div>
+                        <div class="text-sm">Detik</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+            <h3 class="font-bold text-lg text-yellow-800 mb-4">CATATAN PENTING:</h3>
+            <ul class="space-y-3 text-yellow-700">
+                <li class="flex items-start">
+                    <i class="fas fa-truck mr-3 mt-1 text-yellow-600"></i>
+                    <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-map-marker-alt mr-3 mt-1 text-yellow-600"></i>
+                    <span>Mohon Isi Alamat Dengan Lengkap</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-certificate mr-3 mt-1 text-yellow-600"></i>
+                    <span>100% Product Original</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Price Section -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="max-w-2xl mx-auto text-center">
+            <div class="promo-banner py-4 px-6 mb-6">
+                <h3 class="text-xl font-bold mb-2">PROMO SPESIAL HARI INI</h3>
+                <p class="text-sm">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+            </div>
+            
+            <div class="flex justify-center items-center space-x-6">
+                <div>
+                    <p class="text-gray-600 mb-1">Harga Normal</p>
+                    <div class="price-tag">
+                        <span class="original-price text-xl">Rp 199.000</span>
+                    </div>
+                </div>
+                
+                <div class="text-4xl font-bold text-blue-600">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div>
+                    <p class="text-gray-600 mb-1">Harga Promo</p>
+                    <div class="text-3xl font-bold text-red-600">Rp 125.000</div>
+                    <div class="mt-2 bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                        <i class="fas fa-bolt mr-1"></i> HEMAT Rp 74.000!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="container mx-auto px-4 py-8 mb-12">
+        <div class="max-w-3xl mx-auto">
+            <div class="order-form-container p-6 md:p-8">
+                <div class="mb-8 text-center">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">FORM PEMESANAN</h2>
+                    <p class="text-gray-600">Isi form berikut untuk memesan produk ini sekarang</p>
+                </div>
+                
+                <div class="mb-8 overflow-hidden rounded-lg">
+                    <img src="https://down-id.img.susercontent.com/file/b77069ef43b2feea358698b6dd43b563.webp" alt="Promo Diskon" class="w-full h-auto">
+                    <div class="bg-red-600 text-white py-2 px-4 text-center font-bold">
+                        <i class="fas fa-gift mr-2"></i> GRATIS ONGKIR UNTUK PEMESANAN HARI INI!
+                    </div>
+                </div>
+                
+                <!-- OrderOnline Embed Code -->
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="rara" data-product-slug="wireless-push-up-bra" data-product-id="686fb71112a98ce2c40df035" id="oo-embed-form-wireless-push-up-bra-4928" data-origin="orderonline">
+                        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                    </form>
+                </div>
+                <script>
+                    if (typeof xLogError != 'function') {
+                        var xLogError = function (error) {
+                            var req = new XMLHttpRequest();
+                            var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                            var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                            req.open('POST', 'https://api.orderonline.id/log', true);
+                            req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                            req.send(params);
+                        };
+                    }
+                    try {
+                        if (typeof xEmbedScript != 'function') {
+                            var xEmbedScript = function () {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                            };
+                        }
+                        if (typeof xEmbedInit != 'function') {
+                            var xEmbedInit = function (w, n) {
+                                if (w.ooe) return;
+                                n = w.ooe = function() {
+                                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                };
+                                if (!w._ooe) w._ooe = n;
+                                n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                            };
+                        }
+                        xEmbedInit(window);
+                        ooe('setup', 'redirect', 'https://rara.orderonline.id');
+                        ooe('init', '5f12ee789d8e8e5e870172ee', '686fb71112a98ce2c40df035', null, 'oo-embed-form-wireless-push-up-bra-4928', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                        if (!window.jQuery) {
+                            !function(w, d, e, v, id, t, s) {
+                                if (d.getElementById(id)) return;
+                                t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                t.addEventListener('load', xEmbedScript);
+                                s = d.getElementsByTagName(e)[0];
+                                s.parentNode.insertBefore(t, s);
+                            }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                        } else {
+                            xEmbedScript();
+                        }
+                    } catch (e) {
+                        xLogError(e);
+                        throw e;
+                    }
+                </script>
+                <!-- End OrderOnline Embed Code -->
+                
+                <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4 text-center">
+                    <i class="fas fa-lock text-blue-500 mr-2"></i>
+                    <span class="text-blue-700">Data Anda aman dan dilindungi. Kami tidak akan menyebarkan informasi pribadi Anda.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <p class="mb-4">© 2025 Wireless Push Up Bra Premium. All Rights Reserved.</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown timer
+        function updateCountdown() {
+            const now = new Date();
+            const midnight = new Date();
+            midnight.setHours(24, 0, 0, 0);
+            
+            const diff = midnight - now;
+            
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Color variant selection
+        document.querySelectorAll('.color-variant').forEach(variant => {
+            variant.addEventListener('click', function() {
+                document.querySelectorAll('.color-variant').forEach(v => {
+                    v.classList.remove('ring-2', 'ring-blue-500', 'ring-offset-2');
+                });
+                this.classList.add('ring-2', 'ring-blue-500', 'ring-offset-2');
+            });
+        });
+    </script>
+</body>
+</html>
